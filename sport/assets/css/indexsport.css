@@ -1,0 +1,128 @@
+section {
+    display: block;
+    position: relative;
+    margin: 2% 0;
+}
+.sport1 {
+    color: rgb(75, 145, 236);
+    text-decoration: underline red;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 3%;
+    margin-bottom: 30px;
+}
+.sport2 {
+    color: yellow;
+}
+.sport3 {
+    color: rgb(83, 228, 83);
+}
+.sportp {
+    color: #eceef1;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width:800px){
+    section {
+        margin: 0 0;
+    }
+    .presentation {
+        display: block;
+    }    
+    .quimg {
+        left: 20%;
+        height: 25%;
+        width: 50%;
+    }
+    .presentation .question .qui {
+        font-size: 15px;
+    }
+    .presentation .question .quirep {
+        font-size: 10px;
+    }
+    .presentation .que .qui {
+        font-size: 15px;
+    }
+    .presentation .que .quirep {
+        font-size: 10px;
+    }
+    .presentation .comment .qui {
+        font-size: 15px;
+    }
+    .presentation .comment .quirep {
+        font-size: 10px;
+    }
+    .presentation .comment a {
+        font-size: 10px;
+    }
+    .presentation .pourquoi .qui {
+        font-size: 15px;
+    }
+    .presentation .pourquoi .quirep {
+        font-size: 10px;
+    }
+
+    /*Update*/
+
+    .update {
+        left: 1%;
+    }
+    .brv {
+        margin-bottom: 15px;
+    }
+    .update .imgupdate {
+        left: 10%;
+        width: 80%;
+        height: auto;
+    }
+    .update h1 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .update .version .v1 {
+        font-size: 10px;
+    }
+    .update .version .v2 {
+        font-size: 10px;
+    }
+    .update .version .v3 {
+        font-size: 10px;
+    }
+    .update .version .v4 {
+        font-size: 10px;
+    }
+    .update .version .v5 {
+        font-size: 10px;
+    }
+    .update .version .v6 {
+        font-size: 10px;
+    }
+    .update .version .v7 {
+        font-size: 10px;
+    }
+    .update .version .v8 {
+        font-size: 10px;
+    }
+    .update .version .v9 {
+        font-size: 10px;
+    }
+    .update .version .v10 {
+        font-size: 10px;
+    }
+    .update h2, a {
+        font-size: 12.5px;
+    }
+    .big {
+        content: "";
+        display: block;
+        margin-bottom: 50px;
+    }
+    .update .git {
+        padding-bottom: 10%;
+    }
+}
