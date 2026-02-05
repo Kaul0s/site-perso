@@ -39,16 +39,20 @@ section {
 .brsport1 {
     line-height: 1em;
 }
-#graph {
+#iframe {
     width: 600px;
-    height: 371px;
+    height: 370px;
     margin-left: 25%;
+}
+#graph {
+    width: 100%;
+    height: 100%;
 }
 
 
 /*Responsive*/
 
-@media only screen and (max-width:1080px){
+@media only screen and (max-width:800px){
     section {
         margin: 0 0;
     }
@@ -77,10 +81,10 @@ section {
     .brsport1 {
         line-height: 1em;
     }
+    
     #iframe {
-        width: 75px;
-        height: 37.5px;
-        margin-left: 10%;
-        margin-bottom: 45%;
+        margin-left: 1%;
+        padding-bottom: 0%;
     }
+    
 }
