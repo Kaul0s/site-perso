@@ -7,21 +7,42 @@ section {
     color: rgb(75, 145, 236);
     text-decoration: underline red;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     padding-top: 2%;
     padding-left: 3%;
     margin-bottom: 30px;
 }
 .sport2 {
     color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
+.brsport {
+    line-height: 2em;
 }
 .sport3 {
+    text-align: center;
+    font-size: 15px;
     color: rgb(83, 228, 83);
 }
 .sportp {
     color: #eceef1;
-    font-size: 20px;
+    font-size: 12px;
     text-align: center;
+}
+.subtitle {
+    margin-top: 1em;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.brsport1 {
+    line-height: 1em;
+}
+#graph {
+    width: 600px;
+    height: 371px;
+    margin-left: 25%;
 }
 
 
@@ -31,98 +52,35 @@ section {
     section {
         margin: 0 0;
     }
-    .presentation {
-        display: block;
-    }    
-    .quimg {
-        left: 20%;
-        height: 25%;
-        width: 50%;
+    .sport1 {
+        font-size: 25px;
+        padding-top: 2%;
+        padding-left: 3%;
+        margin-bottom: 30px;
     }
-    .presentation .question .qui {
+    .sport2 {
         font-size: 15px;
     }
-    .presentation .question .quirep {
-        font-size: 10px;
+    .brsport {
+        line-height: 2em;
     }
-    .presentation .que .qui {
-        font-size: 15px;
+    .sport3 {
+        font-size: 13.5px;
+    }  
+    .sportp {
+        font-size: 11px;
     }
-    .presentation .que .quirep {
-        font-size: 10px;
+    .subtitle {
+        margin-top: 1em;
+        font-size: 20px;
     }
-    .presentation .comment .qui {
-        font-size: 15px;
+    .brsport1 {
+        line-height: 1em;
     }
-    .presentation .comment .quirep {
-        font-size: 10px;
-    }
-    .presentation .comment a {
-        font-size: 10px;
-    }
-    .presentation .pourquoi .qui {
-        font-size: 15px;
-    }
-    .presentation .pourquoi .quirep {
-        font-size: 10px;
-    }
-
-    /*Update*/
-
-    .update {
-        left: 1%;
-    }
-    .brv {
-        margin-bottom: 15px;
-    }
-    .update .imgupdate {
-        left: 10%;
-        width: 80%;
-        height: auto;
-    }
-    .update h1 {
-        font-size: 15px;
-        margin-bottom: 15px;
-    }
-    .update .version .v1 {
-        font-size: 10px;
-    }
-    .update .version .v2 {
-        font-size: 10px;
-    }
-    .update .version .v3 {
-        font-size: 10px;
-    }
-    .update .version .v4 {
-        font-size: 10px;
-    }
-    .update .version .v5 {
-        font-size: 10px;
-    }
-    .update .version .v6 {
-        font-size: 10px;
-    }
-    .update .version .v7 {
-        font-size: 10px;
-    }
-    .update .version .v8 {
-        font-size: 10px;
-    }
-    .update .version .v9 {
-        font-size: 10px;
-    }
-    .update .version .v10 {
-        font-size: 10px;
-    }
-    .update h2, a {
-        font-size: 12.5px;
-    }
-    .big {
-        content: "";
-        display: block;
-        margin-bottom: 50px;
-    }
-    .update .git {
-        padding-bottom: 10%;
+    #iframe {
+        width: 75px;
+        height: 37.5px;
+        margin-left: 10%;
+        margin-bottom: 45%;
     }
 }
